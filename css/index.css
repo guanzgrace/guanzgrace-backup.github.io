@@ -11,7 +11,12 @@ li { padding-top: 7px; }
 b{ color: #4D306B; }
 
 #bg{
-background-image: linear-gradient(bottom, #F6FBF4 0%, #BFC4D5 100%); background-image: -o-linear-gradient(bottom, #F6FBF4 0%, #BFC4D5 100%); background-image: -moz-linear-gradient(bottom, #F6FBF4 0%, #BFC4D5 100%); background-image: -webkit-linear-gradient(bottom, #F6FBF4 0%, #BFC4D5 100%); background-image: -ms-linear-gradient(bottom, #F6FBF4 0%, #BFC4D5 100%);width: 100%;height: 180px; margin: 0 auto;margin-top: 0;position: fixed;z-index:-500; overflow: scroll;
+background-image: linear-gradient(bottom, #F6FBF4 0%, #BFC4D5 100%); background-image: -o-linear-gradient(bottom, #F6FBF4 0%, #BFC4D5 100%); background-image: -moz-linear-gradient(bottom, #F6FBF4 0%, #BFC4D5 100%); background-image: -webkit-linear-gradient(bottom, #F6FBF4 0%, #BFC4D5 100%); background-image: -ms-linear-gradient(bottom, #F6FBF4 0%, #BFC4D5 100%);width: 100%;height: 180px; margin: 0 auto;margin-top: 0;position: fixed;z-index:-500; 
+}
+
+#container{
+overflow: scroll;
+height: 100%;
 }
 
 #head{ 
