@@ -94,22 +94,6 @@ a:hover{
 	border-bottom: 0px;
 }
 
-.navbar-inverse .nav .active > a {
-  background: 0 !important; 
-  color: #A898C8 !important;
-  box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-}
-
-.navbar-inverse .nav > li > a {
-  color: #A898C8 !important;
-  text-shadow: none !important;
-}
-
-.navbar-inverse .nav > li > a:hover {
-  color: #A898C8 !important;
-}
-
   #hello {
 	position: relative;
 	top: 40%;
