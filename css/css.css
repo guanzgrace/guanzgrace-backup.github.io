@@ -151,7 +151,7 @@ a:hover{
 }
 
 b, h1{
-    color: #4D306B; 
+    color: #4D306B;  font-style: bold;
 }
 
 .grace{
