@@ -53,6 +53,7 @@ html, body {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
 	background-color: transparent;
 	border: 0px;
+	color: #A898C8;
 }
 
 #myNavbar ul {
@@ -89,18 +90,18 @@ html, body {
 
 .navbar-inverse .nav .active > a {
   background: 0 !important; 
-  color: #333 !important;
+  color: #A898C8 !important;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
 }
 
 .navbar-inverse .nav > li > a {
-  color: #333 !important;
+  color: #A898C8 !important;
   text-shadow: none !important;
 }
 
 .navbar-inverse .nav > li > a:hover {
-  color: #333 !important;
+  color: #A898C8 !important;
 }
 
   #hello {
