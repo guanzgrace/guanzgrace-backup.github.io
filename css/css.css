@@ -96,7 +96,7 @@ a:hover{
 
   #hello {
 	position: relative;
-	top: 40%;
+	padding-top: 30%;
 	transform: translateY(-(40%));background-color: #FBFDFF;width: 100%;}
   
   #about {padding-top:20%;background-color: #FBFDFF;background-image: linear-gradient(top, #FBFDFF 0%, #EFF2F7 100%); background-image: -o-linear-gradient(top, #FBFDFF 0%, #EFF2F7 100%); background-image: -moz-linear-gradient(top, #FBFDFF 0%, #EFF2F7 100%); background-image: -webkit-linear-gradient(top, #FBFDFF 0%, #EFF2F7 100%); background-image: -ms-linear-gradient(top, #FBFDFF 0%, #EFF2F7 100%);width: 100%;}
