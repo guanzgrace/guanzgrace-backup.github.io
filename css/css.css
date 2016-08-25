@@ -17,6 +17,13 @@ html, body {
     outline: 0px;
 }
 
+a{color: #A898C8; text-decoration:none;
+}
+
+a:hover{
+    color: #aaa;
+}
+
 .navbar-toggle {
 	border: 0px;
 }
@@ -189,12 +196,7 @@ font-size:20px; padding: 5px;
     color: #666; text-decoration: none;
 }
 
-a{color: #A898C8; text-decoration:none;
-}
 
-a:hover{
-    color: #aaa;
-}
 
 ul {
   list-style-type: none; margin: 0; padding: 0; }
