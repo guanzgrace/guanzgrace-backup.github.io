@@ -25,14 +25,15 @@ a:hover{
 }
 
 .navbar-toggle {
+	background-color: #ccc;
 	border: 0px;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
+    background-color: #ccc;
     border: 0px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: transparent;
+    background-color: #ccc;
     border: 0px;
 }
 .navbar {
@@ -41,7 +42,7 @@ a:hover{
 	border: 0px;
 }
 .navbar-default {
-	border-color: transparent;
+	border-color: #fff;
 }
 .navbar .navbar-nav {
     display: inline-block;
@@ -50,23 +51,19 @@ a:hover{
     border: 0px;
 }
 .navbar .navbar-collapse {
-    text-align: center;
+    text-align: right;
     border: 0px;
 }
 .navbar .navbar-collapse li {
 	color: transparent;
 	border: 0px;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
-	background-color: transparent;
-	border: 0px;
-}
+
 
 #myNavbar ul {
     list-style: none; 
     background-color: transparent;
     border: 0px;
-    background: none !important; 
 	border: 0 !important;
 	box-shadow: none !important;
 	-webkit-box-shadow: none !important;
@@ -76,7 +73,6 @@ a:hover{
 	font-size: 13px;
 	text-transform: uppercase;
     letter-spacing: 1px;
-    border: 0px;
 }
 #myNavbar a {
 	text-decoration: none;
@@ -89,13 +85,14 @@ a:hover{
 #myNavbar .active a {
     color: #A898C8;
 }
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
 	background-color: transparent;
-	border-bottom: 0px;
+	border: 0px;
 }
 
   #hello {
-	padding-top:50px;
+	padding-top:0px;
 	background-color: #FBFDFF;width: 100%;}
   
   #about {padding-top:20%;background-color: #FBFDFF;background-image: linear-gradient(top, #FBFDFF 0%, #EFF2F7 100%); background-image: -o-linear-gradient(top, #FBFDFF 0%, #EFF2F7 100%); background-image: -moz-linear-gradient(top, #FBFDFF 0%, #EFF2F7 100%); background-image: -webkit-linear-gradient(top, #FBFDFF 0%, #EFF2F7 100%); background-image: -ms-linear-gradient(top, #FBFDFF 0%, #EFF2F7 100%);width: 100%;}
@@ -141,7 +138,7 @@ a:hover{
 }
 
 .narrowTextContainer {
-	width: 40%;
+	width: 80%;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -154,8 +151,19 @@ b, h1{
     color: #4D306B;  font-style: bold;
 }
 
+#nameHolder{
+display: table-cell;
+    background-color: transparent;
+    float: none;
+    vertical-align: middle;
+    height: auto;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
 .grace{
-font-size: 60px; letter-spacing: 6px; color: #50306B; padding-bottom:5px;
+font-size: 60px; letter-spacing: 6px; color: #50306B; padding-bottom:5px; 
 }
 
 .tagline{
@@ -221,15 +229,14 @@ padding: 15px;
 }
 
 .verticalCenterText{
-	width: 100%;
-	position: relative;
-	top: 50%;
-	transform: translateY(-(50%));
+display:table-cell;
+    vertical-align:middle;
+    float:none;
 }
 
 
 .titleText{
-	position: relative;
+	/*position: relative;
 	margin-top: 30%;
-	transform: translateY(-(30%));
+	transform: translateY(-(30%));*/
 }
