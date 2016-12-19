@@ -14,3 +14,4 @@ a:hover{color: #37C4B1; text-decoration:underline;}
 .subsubabout{margin-top: 16px; color: #37C4B1;}
 .subsubabout a{color: #37C4B1; font-size: 26px; padding-left: 14px; padding-right: 14px;}
 .subsubabout a:hover{color: #fff;}
+.copy{color: #444; font-size: 8px; position: fixed; bottom: 0px; left: 0px;}
