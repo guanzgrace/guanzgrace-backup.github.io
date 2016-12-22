@@ -1,0 +1,23 @@
+/* @author Grace Guan. @edited 12/21/16. made with love in CA. */
+html, body {font-family:'Roboto',sans-serif; font-weight: 400; font-size: 16px; padding: 0; margin: 0; background-color: #000; color: #fff;} 
+.floating-box{display: inline-block; width: 230px; height: 120px; margin: 20px; border: double #FF8F00; border-radius: 15px; padding: 15px; vertical-align:top;}
+.floating-box-content{height: 90px; position: relative;
+    top: 50%;
+    -webkit-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    transform: translateY(30%);}
+a{color: #fff; text-decoration:none;}
+a:hover{text-decoration:none;}
+.trans{-webkit-transition: opacity 0.7s linear; -webkit-transition: all 0.7s ease-in-out; -moz-transition: all 0.7s ease-in-out; -o-transition: all 0.7s ease-in-out;}
+#content{width: 80%; margin: 0 auto; text-align: center; border: 1px #fff;}
+#title{font-weight: 700; font-size: 60px; margin-top: 30px; margin-bottom: 10px;}
+#about{font-weight: 300; font-size: 13px; margin-bottom: 10px; width: 550px; margin-left: auto; margin-right: auto; color: #ccc;}
+.recal #mainlink{font-size: 55px; margin-top: 65px; color: #000; font-family: 'Unica One', sans-serif; text-transform: uppercase;}
+#subsidiarylink{color: #FF8F00; padding: 15px auto;}
+#description{font-weight: 100; font-size: 12px; color: #ccc;}
+.recal{background: #fff url(../images/recal.png); background-size: 260px auto;}
+
+.recal #subsidiarylink{color: #000;}
+.recal #description{color: #000;}
+img {
+    opacity: 0.5;}
