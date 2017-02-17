@@ -134,6 +134,9 @@ display: none;
 .mobile-only {
 display: block;
 }
+
+#contact {
+margin-bottom: 160px;}
 }
 
 @media (max-width: 992px) {
@@ -157,7 +160,7 @@ display: block;
 }
 
 #events {
-padding-top: 160px;
+padding-top: 90px;
 margin-top: -130px;
 }
 }
