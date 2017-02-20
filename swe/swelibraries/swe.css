@@ -167,3 +167,6 @@ margin-bottom: -140px;
 text-align: center;
 padding-bottom: 5px;
 }
+
+ul{padding: 2px; margin: 2px; list-style-type: none;}
+li{padding: 4px;}
