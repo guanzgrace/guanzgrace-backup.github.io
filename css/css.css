@@ -6,7 +6,7 @@ a:hover{color: #37C4B1; text-decoration:underline;}
 #default{position: absolute; z-index: -999; top: 0; left: 0; width: 100% !important; height: 100% !important; margin: 0; padding: 0;}
 .container{position: absolute; z-index: 0; top: 0; left: 0; width: 100% !important; height: 100% !important; margin-top: 0px; margin-left: auto; margin-right: auto; padding: 0;}
 #nameHolder{margin-top: 25%;}
-#aboutHolder{margin-top: -10%;}
+#aboutHolder{margin-top: -14%;}
 #name{font-size: 400%; font-weight: 600;  overflow: wrap;}
 #subname{font-size: 33px; line-height: 53px; color: #ccc;}
 #subname a{font-size: 28px; padding-left: 14px; padding-right: 14px;}
