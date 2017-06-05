@@ -25,5 +25,5 @@ a:hover{color: #37C4B1; text-decoration:underline;}
 	#aboutHolder{margin-top: -10%;}
 }
 @media only screen and (min-width: 428px) {
-	#aboutHolder{margin-top: 130%;}
+	#aboutHolder{margin-top: 250px;}
 }
