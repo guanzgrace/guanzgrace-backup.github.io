@@ -29,8 +29,8 @@ function draw() {
   for (var i = 0; i<sines.length; i++) {
     var erad = 0; // radius for small "point" within circle... this is the 'pen' when tracing
     // setup for tracing
-    stroke(0, 200, 255*(float(i)/sines.length), alpha); // blue
-    fill(0, 200, 255, alpha/2); // also, um, blue
+    stroke(248, 131, 121*(float(i)/sines.length), alpha); // blue
+    fill(248, 131, 121, alpha/2); // also, um, blue
     erad = 5.0*(1.0-float(i)/sines.length); // pen width will be related to which sine
     var radius = rad/(i+1); // radius for circle itself
     rotate(sines[i]); // rotate circle
