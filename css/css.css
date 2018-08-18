@@ -30,3 +30,4 @@ a:hover{color: #f88379; text-decoration:underline;}
 	#about-container{margin-top: -12%;}
 }
 .row{ margin: 0px }
+.col-md-12{ padding: 0px }
