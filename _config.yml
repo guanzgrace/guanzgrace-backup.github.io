@@ -27,6 +27,46 @@ url: "https://guanzgrace.github.io/" # the base hostname & protocol for your sit
 twitter_username: guanzgrace
 github_username:  guanzgrace
 
+
+author:
+  name             : "Grace Guan"
+  avatar           : "profile.png"
+  bio              : "PhD Student at Stanford University"
+  location         : "Stanford, California"
+  employer         :
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?user=xcJ3x40AAAAJ&hl=en"
+  email            : "gzguan@stanford.edu"
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "guanzgrace"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : "guanzgrace"
+  orcid            : #"http://orcid.org/yourorcidurl"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : "guanzgrace"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
